@@ -1,0 +1,55 @@
+/* General */
+
+body, input, textarea, select {
+  color: #333;
+  font: 10pt "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+body {
+  line-height: 1.8em;
+}
+
+/* Formatting */
+
+p {
+  margin: 1em 0;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  margin: 0.5em 0 1em;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+/* Links */
+
+a {
+  text-decoration:none;
+}
+
+  a:link, a:visited {
+    color: #337ecb;
+  }
+  
+  a:hover {
+    color: #ff5c07;
+  }
+  
+  a:active {
+    color: #910;
+  }
+  
+  a img {
+    border-style: none;
+  }
+
+/* Lists */
+
+ul {
+  list-style-type: disc;
+  padding-left: 3em;
+  margin: 1em 0;
+}

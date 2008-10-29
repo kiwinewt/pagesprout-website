@@ -1,0 +1,40 @@
+/* General */
+
+body {
+  margin: 1em auto;
+  width: 960px;
+}
+
+/* Header */
+
+#header {
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+  padding-bottom: 1em;
+}
+
+  #header #nav {
+    float: right;
+  }
+
+  #header .logo {
+    float: left;
+  }
+
+/* Navigation */
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+}
+
+  #nav li {
+    display: inline;
+    margin-right: 2em;
+  }
+
+/* Footer */
+
+#footer {
+  font-size: 0.8em;
+}
