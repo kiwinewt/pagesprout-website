@@ -57,7 +57,7 @@ body {
     float: left;
     padding: 10px;
     text-align: justify;
-    width: 280px;
+    width: 440px;
   }
 
 #footer {
@@ -82,7 +82,7 @@ body {
 /* Showcase */
 
 #showcase {
-  background: #457eda url('../images/elements/showcase.png') no-repeat;
+  background: #3a8bf9 url('../images/elements/showcase.png') no-repeat;
   color: #fff;
   height: 200px;
   overflow: hidden;
@@ -95,6 +95,30 @@ body {
   }
   
   #showcase .example {
-    background: url('../images/screenshots/example.png') no-repeat right;
-    padding-right: 420px;
+    background: url('../images/screenshots/example.png') no-repeat 100% 10px;
+    padding-top: 60px;
+    padding-right: 360px;
+  }
+
+
+/* Download */
+
+#download {
+  border: 1px solid #ccc;
+  float: right;
+  padding: 1em;
+  text-align: center;
+  width: 200px;
+}
+
+  #download strike {
+    display: block;
+    font-size: 1.4em;
+    color: #999;
+    text-decoration: none;
+  }
+  
+  #download .note {
+    font-size: 0.9em;
+    color: #999;
   }
