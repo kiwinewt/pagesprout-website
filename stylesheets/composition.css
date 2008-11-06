@@ -105,13 +105,12 @@ body {
 
 #download {
   border: 1px solid #ccc;
-  float: right;
+  clear: both;
   padding: 1em;
   text-align: center;
-  width: 200px;
 }
 
-  #download strike {
+  #download .inactive {
     display: block;
     font-size: 1.4em;
     color: #999;
