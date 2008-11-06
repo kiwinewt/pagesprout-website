@@ -1,40 +1,100 @@
 /* General */
 
 body {
-  margin: 1em auto;
-  width: 960px;
+  background-color: #353951;
+  color: #7c7b8f;
+  margin: 1em auto 1em;
+  width: 980px;
 }
 
-/* Header */
+/* Core Layout */
 
 #header {
-  border-bottom: 1px dashed #ccc;
+  background: url('../images/elements/page_top.png') no-repeat bottom;
+  height: 40px;
   overflow: hidden;
-  padding-bottom: 1em;
+  padding: 0 20px 20px;
 }
-
-  #header #nav {
-    float: right;
-  }
 
   #header .logo {
+    font-size: 1.4em;
     float: left;
   }
+  
+  #header ul.nav {
+    float: right;
+    list-style-type: none;
+    margin: 10px 0 0 0;
+  }
+  
+    #header .nav li {
+      display: inline;
+    }
+    
+    #header .nav a {
+      background: url('../images/navigation_highlight.png') no-repeat center right;
+      color: #a3a1bd;
+      padding: 10px 20px 10px 0;
+    }
+    
+      #header .nav a span {
+        background: url('../images/navigation_highlight.png') no-repeat center left;
+        padding: 10px 0 10px 20px;
+      }
+    
+      #header .nav a:hover, #header .nav a.selected {
+        color: #fff;
+      }
 
-/* Navigation */
-
-#nav {
-  list-style-type: none;
-  margin: 0;
+#page {
+  background: url('../images/elements/page_middle.png') repeat-y;
+  color: #222;
+  padding: 10px 30px;
+  overflow: hidden;
 }
-
-  #nav li {
-    display: inline;
-    margin-right: 2em;
+  
+  #page .section {
+    float: left;
+    padding: 10px;
+    text-align: justify;
+    width: 280px;
   }
 
-/* Footer */
-
 #footer {
-  font-size: 0.8em;
+  background: url('../images/elements/page_bottom.png') no-repeat top;
+  font-size: 0.9em;
+  text-align: right;
+  padding: 40px 30px 0;
 }
+
+  #footer .license {
+    float: left;
+  }
+  
+  #footer a {
+    color: #d2d1f3;
+  }
+  
+    #footer a:hover {
+      color: #e7e7f2;
+    }
+
+/* Showcase */
+
+#showcase {
+  background: #457eda url('../images/elements/showcase.png') no-repeat;
+  color: #fff;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+  #showcase .item {
+    height: 140px;
+    padding: 30px;
+  }
+  
+  #showcase .example {
+    background: url('../images/screenshots/example.png') no-repeat right;
+    padding-right: 420px;
+  }
