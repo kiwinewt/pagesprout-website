@@ -65,6 +65,13 @@ body {
       font-size: 0.8em;
       padding: 0;
       text-align: justify;
+      clear:left;
+    }
+  
+    #page .section #rails {
+      float: left;
+      padding: 10px;
+      padding-left: 0px;
     }
 
 #footer {
