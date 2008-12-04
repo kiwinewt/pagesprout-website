@@ -1,7 +1,7 @@
 /* General */
 
 body {
-  background-color: #fff;
+  background-color: #f9f9f9;
   color: #222;
   margin: 1em auto 1em;
   width: 980px;
@@ -34,11 +34,11 @@ body {
     }
 
       #header .nav a {
-        color: #222;
+        color: #666;
       }
 
       #header .nav a:hover {
-        color: #666;
+        color: #222;
       }
 
 #page {
@@ -73,6 +73,15 @@ body {
       padding: 10px;
       padding-left: 0px;
     }
+  
+    #page .section a {
+      color: #fff;
+    }
+    
+      #page .section a:hover {
+        color: #999;
+      }
+
 
 #footer {
   background: url('../images/elements/page_bottom.png') no-repeat top;
