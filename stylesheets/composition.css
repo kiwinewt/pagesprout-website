@@ -1,8 +1,8 @@
 /* General */
 
 body {
-  background-color: #353951;
-  color: #7c7b8f;
+  background-color: #fff;
+  color: #222;
   margin: 1em auto 1em;
   width: 980px;
 }
@@ -29,36 +29,43 @@ body {
   
     #header .nav li {
       display: inline;
+      font-size: 1.2em;
+      padding-left: 30px;
     }
-    
-    #header .nav a {
-      background: url('../images/navigation_highlight.png') no-repeat center right;
-      color: #a3a1bd;
-      padding: 10px 20px 10px 0;
-    }
-    
-      #header .nav a span {
-        background: url('../images/navigation_highlight.png') no-repeat center left;
-        padding: 10px 0 10px 20px;
+
+      #header .nav a {
+        color: #222;
       }
-    
-      #header .nav a:hover, #header .nav a.selected {
-        color: #fff;
+
+      #header .nav a:hover {
+        color: #666;
       }
 
 #page {
   background: url('../images/elements/page_middle.png') repeat-y;
-  color: #222;
+  color: #fff;
   padding: 10px 30px;
   overflow: hidden;
+  padding-bottom: 0;
 }
   
-  #page .section {
+  .section {
     float: left;
-    padding: 10px;
-    text-align: justify;
-    width: 440px;
+    padding: 10px 20px 0 10px;
+    text-align: left;
+    font-size: 1.2em;
   }
+  
+    .first {
+      width: 330px;
+    }
+  
+    #page .section .quote {
+      line-height: 1.1em;
+      font-size: 0.8em;
+      padding: 0;
+      text-align: justify;
+    }
 
 #footer {
   background: url('../images/elements/page_bottom.png') no-repeat top;
@@ -72,33 +79,72 @@ body {
   }
   
   #footer a {
-    color: #d2d1f3;
+    color: #666;
   }
   
     #footer a:hover {
-      color: #e7e7f2;
+      color: #999;
     }
 
 /* Showcase */
 
 #showcase {
-  background: #3a8bf9 url('../images/elements/showcase.png') no-repeat;
-  color: #fff;
-  height: 200px;
+  background: #9c1421 url('../images/elements/showcase.png') no-repeat;
+  color: #222;
+  height: 350px;
   overflow: hidden;
-  margin-bottom: 1em;
+  margin-bottom: 0px;
 }
+
+  #showcase a {
+    color: #222;
+  }
+
+  #showcase a:hover {
+    color: #666;
+  }
 
   #showcase .item {
     height: 140px;
     padding: 30px;
   }
-  
-  #showcase .example {
-    background: url('../images/screenshots/example.png') no-repeat 100% 10px;
-    padding-top: 60px;
-    padding-right: 360px;
+
+  #showcase h1 {
+    padding: 30px;
   }
+  
+  #showcase ul.nav {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 1.4em;
+    float: right;
+    width: 250px;
+  }
+    
+    #showcase ul.nav li {
+      padding: 20px;
+      margin: 0;
+      background: #fff url('../images/buttons/showcase_link.jpg') repeat-y;
+      height: 28px;
+    }
+    
+    #showcase ul.nav li#selected {
+      background: none;
+      font-weight: bold;
+    }
+    
+    #showcase ul.nav li#last {
+      height: 29px;
+      background: #fff url('../images/buttons/showcase_link_last.jpg') no-repeat bottom right;
+    }
+    
+    #showcase img#download_button {
+      float: left;
+      clear: right;
+      margin-top: -70px;
+      padding-left: 10px;
+    }
 
 
 /* Download */
